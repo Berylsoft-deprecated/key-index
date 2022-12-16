@@ -1,0 +1,15 @@
+[package]
+name = "key-index-3d"
+version = "0.1.0"
+edition = "2021"
+authors = ["stackinspector"]
+license = "MPL-2.0"
+repository = "https://github.com/Berylsoft/key-index"
+
+[lib]
+name = "key_index_3d"
+path = "lib.rs"
+
+[features]
+map = []
+default = ["map"]
